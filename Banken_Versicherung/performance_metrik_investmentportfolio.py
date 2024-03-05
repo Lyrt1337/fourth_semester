@@ -67,3 +67,10 @@ Portfolio C bietet damit den höchsten Wert bei der Jensen's Alpha mit -0.01 bzw
 Wobei alle Portfolios schlechter abschneiden als aufgrund des Systematischen Fehlers erwartet wird
 Rangordnung: C > A > B
 """)
+
+
+a = 0.08 - 0.02
+b = 0.8 * a
+c = 0.02 + b
+d = 0.06 - c
+print(d)
